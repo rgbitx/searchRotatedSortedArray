@@ -24,7 +24,7 @@ int search(vector<int> &A, int target) {
             if (A[mid] < target && target <= A[end]){
                 start = mid;
             } else {
-                end =start;
+                end = mid;
             }
         }
 
